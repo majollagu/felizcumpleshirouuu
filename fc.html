@@ -11,6 +11,11 @@
 
 </head>
 <body>
+   <div id="contenedor_carga">
+      <div id="carga"></div>
+   </div>
+
+
 <!-- partial:index.partial.html -->
 <h1>Feliz cum pleaños :3</h1>
 <audio controls autoplay style="display: none;">
@@ -103,6 +108,17 @@
   </section>
 <!-- END mosaic-2 -->
 <!-- partial -->
-  
+      
+<script>
+   window.onload = function() {
+      let contenedor = document.getElementById('contenedor_carga');
+
+      contenedor.style.visibility = 'hidden';
+      contenedor.style.opacity =  '0';
+   }
+</script>
+
+
+
 </body>
 </html>
